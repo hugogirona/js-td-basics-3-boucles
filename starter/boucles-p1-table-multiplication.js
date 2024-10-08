@@ -18,3 +18,9 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let table = prompt("Quelle table souhaitez vous afficher");
+let x = prompt("Pour combien de nombre voulez vous faire le calcul ?");
+
+for (i = 1; i <= x; i++ ){
+    console.log(`${table} * ${i} = ${i * table}`);
+}

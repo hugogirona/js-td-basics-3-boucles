@@ -22,4 +22,9 @@ CORRECTION :
 */
 
 
+for(let i=1;i<=5;i++){
+    console.log(i);
+    i++;
+}
 
+// ici ca incrémente de 2 car on remet i++ dans le corps de for

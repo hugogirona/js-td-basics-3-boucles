@@ -25,3 +25,16 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+
+let table = parseInt(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}`);
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${i} * ${table} = ${i * table}`);
+}
+
+console.log(i);
+
+// avec var ça affiche 11
+// avec let ça affiche undefined car la variable n'est valable que pour la boucle

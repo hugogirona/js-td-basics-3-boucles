@@ -20,3 +20,11 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 */
 
 
+let table = prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par");
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}`);
+let i = 1;
+while(i <= 10){
+    console.log(`${i} * ${table} = ${i * table}`);
+    i++;
+}
